@@ -3,10 +3,10 @@ HOW TO USE
    http://www.openssl.org/source/
 2. cd my-dev-path
 2. tar xvf openssl-0.9.8n.tar.gz
-3. git clone git://github.com/tatsh/OpenSSL-MinGW-crossenv.git
+3. git clone git://github.com/tatsh/cross-pc-mingw32-openssl.git
 4. Use the appropriate patch (if your toolchain is i686-based):
-   patch -p0 < OpenSSL-MinGW-crossenv/openssl-0.9.8n-crossdev-i686-pc-mingw32.patch
-5. cp OpenSSL-MinGW-crossenv/mingw32-cross.sh openssl-0.9.8n/ms
+   patch -p0 < cross-pc-mingw32-openssl/openssl-0.9.8n-crossdev-i686-pc-mingw32.patch
+5. cp cross-pc-mingw32-openssl/mingw32-cross.sh openssl-0.9.8n/ms
 6. cd openssl-0.9.8n
 7. sh ms/mingw32-cross.sh
 8. Wait
